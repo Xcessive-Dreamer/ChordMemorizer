@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		472306A62BE82F3800AA62D5 /* Autumn Leaves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 472306A52BE82F3800AA62D5 /* Autumn Leaves.mp3 */; };
+		472306A82BE82F4000AA62D5 /* Misty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 472306A72BE82F4000AA62D5 /* Misty.mp3 */; };
+		472306AA2BE830A600AA62D5 /* TODO.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 472306A92BE830A600AA62D5 /* TODO.rtf */; };
+		472484CF2BDDFD400057DEEE /* ChordGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472484CE2BDDFD400057DEEE /* ChordGameModel.swift */; };
+		474168412B3CCF0F00CA3BD2 /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474168402B3CCF0F00CA3BD2 /* Metronome.swift */; };
+		47835E1C2B36543D008A48F0 /* Chord_MemorizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47835E1B2B36543D008A48F0 /* Chord_MemorizerApp.swift */; };
+		47835E1E2B36543D008A48F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47835E1D2B36543D008A48F0 /* ContentView.swift */; };
+		47835E202B365440008A48F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47835E1F2B365440008A48F0 /* Assets.xcassets */; };
+		47835E232B365440008A48F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47835E222B365440008A48F0 /* Preview Assets.xcassets */; };
+		4789E9EF2B97DE37009AB239 /* metronome_click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4789E9EE2B97DE37009AB239 /* metronome_click.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		472306A52BE82F3800AA62D5 /* Autumn Leaves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Autumn Leaves.mp3"; sourceTree = "<group>"; };
+		472306A72BE82F4000AA62D5 /* Misty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Misty.mp3; path = "../../../../Misty,Autumn Leaves/Misty.mp3"; sourceTree = "<group>"; };
+		472306A92BE830A600AA62D5 /* TODO.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = TODO.rtf; sourceTree = "<group>"; };
+		472484CE2BDDFD400057DEEE /* ChordGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordGameModel.swift; sourceTree = "<group>"; };
+		474168402B3CCF0F00CA3BD2 /* Metronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
+		47835E182B36543D008A48F0 /* Chord Memorizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chord Memorizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47835E1B2B36543D008A48F0 /* Chord_MemorizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chord_MemorizerApp.swift; sourceTree = "<group>"; };
+		47835E1D2B36543D008A48F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47835E1F2B365440008A48F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47835E222B365440008A48F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4789E9EE2B97DE37009AB239 /* metronome_click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = metronome_click.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47835E152B36543D008A48F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47835E0F2B36543D008A48F0 = {
+			isa = PBXGroup;
+			children = (
+				47835E1A2B36543D008A48F0 /* Chord Memorizer */,
+				47835E192B36543D008A48F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47835E192B36543D008A48F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47835E182B36543D008A48F0 /* Chord Memorizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47835E1A2B36543D008A48F0 /* Chord Memorizer */ = {
+			isa = PBXGroup;
+			children = (
+				472306A72BE82F4000AA62D5 /* Misty.mp3 */,
+				472306A52BE82F3800AA62D5 /* Autumn Leaves.mp3 */,
+				4789E9EE2B97DE37009AB239 /* metronome_click.mp3 */,
+				47835E1B2B36543D008A48F0 /* Chord_MemorizerApp.swift */,
+				47835E1D2B36543D008A48F0 /* ContentView.swift */,
+				47835E1F2B365440008A48F0 /* Assets.xcassets */,
+				47835E212B365440008A48F0 /* Preview Content */,
+				474168402B3CCF0F00CA3BD2 /* Metronome.swift */,
+				472484CE2BDDFD400057DEEE /* ChordGameModel.swift */,
+				472306A92BE830A600AA62D5 /* TODO.rtf */,
+			);
+			path = "Chord Memorizer";
+			sourceTree = "<group>";
+		};
+		47835E212B365440008A48F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				47835E222B365440008A48F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47835E172B36543D008A48F0 /* Chord Memorizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47835E262B365440008A48F0 /* Build configuration list for PBXNativeTarget "Chord Memorizer" */;
+			buildPhases = (
+				47835E142B36543D008A48F0 /* Sources */,
+				47835E152B36543D008A48F0 /* Frameworks */,
+				47835E162B36543D008A48F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chord Memorizer";
+			productName = "Chord Memorizer";
+			productReference = 47835E182B36543D008A48F0 /* Chord Memorizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47835E102B36543D008A48F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					47835E172B36543D008A48F0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 47835E132B36543D008A48F0 /* Build configuration list for PBXProject "Chord Memorizer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47835E0F2B36543D008A48F0;
+			productRefGroup = 47835E192B36543D008A48F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47835E172B36543D008A48F0 /* Chord Memorizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47835E162B36543D008A48F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4789E9EF2B97DE37009AB239 /* metronome_click.mp3 in Resources */,
+				472306A62BE82F3800AA62D5 /* Autumn Leaves.mp3 in Resources */,
+				472306AA2BE830A600AA62D5 /* TODO.rtf in Resources */,
+				47835E232B365440008A48F0 /* Preview Assets.xcassets in Resources */,
+				472306A82BE82F4000AA62D5 /* Misty.mp3 in Resources */,
+				47835E202B365440008A48F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47835E142B36543D008A48F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474168412B3CCF0F00CA3BD2 /* Metronome.swift in Sources */,
+				47835E1E2B36543D008A48F0 /* ContentView.swift in Sources */,
+				472484CF2BDDFD400057DEEE /* ChordGameModel.swift in Sources */,
+				47835E1C2B36543D008A48F0 /* Chord_MemorizerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47835E242B365440008A48F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47835E252B365440008A48F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47835E272B365440008A48F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chord Memorizer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.XcessiveDreamer.Chord-Memorizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47835E282B365440008A48F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chord Memorizer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.XcessiveDreamer.Chord-Memorizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47835E132B36543D008A48F0 /* Build configuration list for PBXProject "Chord Memorizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47835E242B365440008A48F0 /* Debug */,
+				47835E252B365440008A48F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47835E262B365440008A48F0 /* Build configuration list for PBXNativeTarget "Chord Memorizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47835E272B365440008A48F0 /* Debug */,
+				47835E282B365440008A48F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47835E102B36543D008A48F0 /* Project object */;
+}
